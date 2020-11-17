@@ -7,4 +7,6 @@ cask 'font-sf-pro' do
     homepage 'https://developer.apple.com/fonts/'
 
     pkg 'San Francisco Pro.pkg'
+
+    uninstall pkgutil: "com.apple.pkg.SanFranciscoPro"
 end
