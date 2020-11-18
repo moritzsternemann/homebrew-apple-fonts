@@ -7,4 +7,6 @@ cask 'font-new-york' do
     homepage 'https://developer.apple.com/fonts/'
 
     pkg 'NY Fonts.pkg'
+
+    uninstall pkgutil: "com.apple.pkg.NYFonts"
 end

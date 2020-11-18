@@ -7,4 +7,6 @@ cask 'font-sf-compact' do
     homepage 'https://developer.apple.com/fonts/'
 
     pkg 'San Francisco Compact.pkg'
+
+    uninstall pkgutil: "com.apple.pkg.SanFranciscoCompact"
 end

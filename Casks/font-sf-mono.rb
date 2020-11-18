@@ -7,4 +7,6 @@ cask 'font-sf-mono' do
     homepage 'https://developer.apple.com/fonts/'
 
     pkg 'SF Mono Fonts.pkg'
+
+    uninstall pkgutil: "com.apple.pkg.SFMonoFonts"
 end
