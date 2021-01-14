@@ -9,10 +9,10 @@ $ brew tap moritzsternemann/apple-fonts
 
 ## Install the Fonts
 ```
-$ brew cask install font-sf-pro
-$ brew cask install font-sf-compact
-$ brew cask install font-sf-mono
-$ brew cask install font-new-york
+$ brew install --cask font-sf-pro
+$ brew install --cask font-sf-compact
+$ brew install --cask font-sf-mono
+$ brew install --cask font-new-york
 ```
 
 ## License
