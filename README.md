@@ -1,9 +1,8 @@
 # Homebrew Tap – Apple Fonts
+⚠️ This tap is no longer maintained since Apple fonts are now available in the official [`homebrew/cask-fonts`](https://github.com/Homebrew/homebrew-cask-fonts) tap. ⚠️
+
 Homebrew Casks for Apples fonts for easy installation.
 All Casks just link to the downloads from [developer.apple.com/fonts](https://developer.apple.com/fonts/).
-
-> All fonts in this tap are also available in [`homebrew/cask-fonts`](https://github.com/Homebrew/homebrew-cask-fonts).
-
 ## Install the Tap
 ```
 $ brew tap moritzsternemann/apple-fonts
